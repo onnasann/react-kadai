@@ -2,6 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/react-kadai/",  
   plugins: [react()],
+  base: "/",   // ← ★これを必ず追加
 });
