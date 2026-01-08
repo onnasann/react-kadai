@@ -4,7 +4,7 @@ import { expData } from "./expData";
 
 // クエストデータ
 const quests = {
-  A: { name: "裏修羅の幻界", exp: 40203800 },
+  A: { name: "裏魔門の守護者", exp: 40203800 },
   B: { name: "裏機構城の絶対者", exp: 85000000 },
   C: { name: "10億ダンジョン", exp: 1000000000 },
 };
@@ -97,7 +97,7 @@ export default function App() {
         {needExp !== null && (
           <div className="questButtons">
             <button onClick={() => setSelectedQuest("A")}>
-              裏修羅の幻界
+              裏魔門の守護者
             </button>
             <button onClick={() => setSelectedQuest("B")}>
               裏機構城の絶対者
